@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+    scroll-behavior: smooth;
 }
 
 /* header style */ 
@@ -139,4 +140,13 @@ nav a {
 
 .hero-cta {
     background-image: url(./images/smiling-blonde-female-manager-holding-infographic-pencil-while-sitting-table-indoor-portrait-two-women-working-with-computer-office.jpg);
+}
+
+/* footer style */
+
+footer {
+    background-color: white;
+    color: purple;
+    text-align: center;
+    padding: 40px;
 }
