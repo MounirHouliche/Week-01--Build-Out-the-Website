@@ -65,3 +65,78 @@ nav a {
 }
 
 /* main style */
+
+.hero {
+    display: flex;
+    position: relative;
+    background-size: cover;
+    background-position: left;
+    height: 100vh;
+    border-bottom: white 2px solid;
+}
+
+.hero div {
+    position: absolute;
+    bottom: 10%;
+    left: 48px;
+    color: white;
+    background-color: purple;
+    flex-direction: column;
+    max-width: 80vh;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+.hero h2 {
+    text-transform: capitalize;
+    font-weight: 100;
+    opacity: 1;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.hero h1{
+    font-size: 40px;
+    line-height: 1.3;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.hero a {
+    display: inline-block;
+    background: white;
+    color: purple;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-weight: bold;
+    text-decoration: none;
+    opacity: 1;
+    margin-top: 20px;
+}
+
+.hero a:hover {
+    background: purple;
+    color: white;
+    border: 2px solid white;
+}
+
+/* section 1 */
+
+.hero-growth {
+    background-image: url(./images/colleagues-working-desk.jpg);
+}
+
+
+/* section 2 */
+
+
+.hero-services {
+    background-image: url(./images/happy-young-colleagues-office-coworking.jpg);    
+}
+
+
+/* section 3 */
+
+.hero-cta {
+    background-image: url(./images/smiling-blonde-female-manager-holding-infographic-pencil-while-sitting-table-indoor-portrait-two-women-working-with-computer-office.jpg);
+}
