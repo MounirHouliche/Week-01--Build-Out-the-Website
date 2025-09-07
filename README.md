@@ -1,2 +1,8 @@
 # Week-01--Build-Out-the-Website
 
+I was able to build the overall structure of the webpage with a clear header, navigation, main content, and footer. I used semantic HTML tags like <header>, <nav>, <main>, and <footer> which made the layout more organised. I also implemented CSS Flexbox in the navigation so the links lined up properly and were responsive. Another requirement I met was overlaying text on top of background images by using relative/absolute positioning, which gave the site a more professional look. I also added a button style with a hover effect, which made the page feel more interactive. Finally, I made sure that images were loading correctly by checking my file paths.
+
+
+I completed the main requirements, but some of the stretch goals were more challenging. For example, adding background music and handling autoplay restrictions was something I couldn’t fully get working in the same way across different browsers. I also wanted to experiment more with making the navigation fully responsive on mobile (like a hamburger menu), but I didn’t manage to implement that yet.
+
+As a beginner, I found it a bit confusing to understand when to use <a> vs <button> for navigation and actions. I also struggled a little with positioning—sometimes the fixed header would overlap the sections when scrolling, and I had to learn about using padding and scroll-margin to fix it. Linking the navigation with the right section IDs also took a few tries, since I mixed uppercase and lowercase at first. The CSS for overlays and making sure text was still readable on images was another part that took me some practice, but I eventually got it working.
